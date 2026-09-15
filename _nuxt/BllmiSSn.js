@@ -1,0 +1,1 @@
+import{r}from"./fe0NePqv.js";import{a as t,i as s,n}from"./DVq6vHEG.js";var a=r({evm_utils:()=>i}),i={formatUnits:(...r)=>Number(r?.[1])?n(...r):r?.[0]||0,parseUnits:(...r)=>{const n=Number(r?.[1]);if(!n)return t.fromString(String(r?.[0]??"0")).value;const a=String(r?.[0]??"");return s(a,n)}};export{i as n,a as t};
